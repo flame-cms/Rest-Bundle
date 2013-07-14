@@ -1,6 +1,6 @@
 {
   "name": "flame-cms/rest-bundle",
-  "type": "nette-bundle",
+  "type": "library",
   "description": "Basic setting of REST environment for Nette",
   "keywords": ["rest bundle", "nette", "flame", "rest", "bundle", "cms"],
   "homepage": "https://github.com/flame-cms/Rest-Bundle",
@@ -21,7 +21,6 @@
     "nette/nette": "dev-master",
     "adamstipak/nette-rest-route": "dev-master",
     "flame/tiny-rest": "dev-master",
-    "flame/bundles": "dev-master",
-    "flame/bundle-installer": "dev-master"
+    "flame/bundles": "dev-master"
   }
 }
