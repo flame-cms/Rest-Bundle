@@ -1,7 +1,7 @@
 nette:
   application:
     mapping:
-      Flame\CMS\RestBundle: Flame\CMS\RestBundle\*Module\Presenters\*Presenter
+      Rest: Flame\CMS\RestBundle\*Module\Presenters\*Presenter
 
 services:
   restRouter: Flame\CMS\RestBundle\RestRouter

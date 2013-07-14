@@ -19,7 +19,7 @@ class RestRouter implements IRouter
 	 */
 	public function getRouteList()
 	{
-		$router = new RouteList();
+		$router = new RouteList('Rest');
 		$router[] = new RestRoute('Api:V1', 'json', true);
 		return $router;
 	}
