@@ -8,6 +8,7 @@
 namespace Flame\CMS\RestBundle;
 
 use Flame\Bundles\Bundle;
+use Flame\Rest\DI\RestExtension;
 
 class RestBundle extends Bundle
 {
@@ -20,5 +21,10 @@ class RestBundle extends Bundle
 		return array(
 			$this->getCurrentPath() . '/config/config.neon'
 		);
+	}
+
+	protected function beforeSetUp()
+	{
+		RestExtension::install($this->getConfigurator());
 	}
 }
