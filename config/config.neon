@@ -1,0 +1,6 @@
+services:
+  restRouter: Flame\CMS\RestBundle\RestRouter
+  routerFactory:
+    class: \Flame\Bundles\Router\RouterFactory
+    setup:
+      - register(@restRouter)
