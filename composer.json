@@ -17,6 +17,14 @@
     "vendor-dir": "libs"
   },
 
+  "target-dir": "Flame/CMS/RestBundle",
+
+  "autoload": {
+    "psr-0": {
+      "Flame": ""
+    }
+  },
+
   "require": {
     "nette/nette": "dev-master",
     "adamstipak/nette-rest-route": "dev-master",
